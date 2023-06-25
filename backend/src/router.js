@@ -4,7 +4,6 @@ const router = express.Router()
 
 module.exports = router
 
-
 router.get('/tasks',tasksController.getAll)
-
+router.post('/tasks',tasksController.addTask)
 

@@ -1,0 +1,31 @@
+/*
+#001C30
+#176B87
+#64CCC5
+#DAFFFB
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neuton', serif;
+}
+body{
+    background-color: #64CCC5;
+}
+main{
+    background-color: #176B87;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.6);
+}
+.addForm{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
